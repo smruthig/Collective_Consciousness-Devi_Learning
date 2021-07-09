@@ -1,2 +1,0 @@
-Username: force
-IP: 172.19.45.110
