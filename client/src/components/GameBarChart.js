@@ -6,38 +6,25 @@ const BarChart = (props) => {
         <div>
             <Bar
                 data={{
-                    labels:  ['Session-1', 'Session-2', 'Session-3'],
+                    labels:  ['S1', 'S2', 'S3','S4'],
                     datasets: [
                         {
-                            label: 'Student points per session',
+                            label: 'Points per Student',
                             data: props.data,
                             backgroundColor: [
                                 'rgba(255, 99, 132, 0.2)',
                                 'rgba(153, 102, 255, 0.2)',
-                                'rgba(255, 159, 64, 0.2)'
+                                'rgba(255, 159, 64, 0.2)',
+                                'rgba(255, 99, 132, 0.2)',
                             ],
                             borderColor: [
                                 'rgba(255, 99, 132, 1)',
                                 'rgba(153, 102, 255, 1)',
+                                'rgba(255, 159, 64, 1)',
                                 'rgba(255, 159, 64, 1)'
                             ],
                             borderWidth: 1
                         },
-                        {
-                            label: 'Student points yesterday',
-                            data: [23,25,32],
-                            backgroundColor: [
-                                'rgba(255, 60, 100, 0.5)',
-                                'rgba(133, 80, 230, 0.5)',
-                                'rgba(255, 159, 64, 0.5)'
-                            ],
-                            borderColor: [
-                                'rgba(255, 99, 132, 1)',
-                                'rgba(153, 102, 255, 1)',
-                                'rgba(255, 159, 64, 1)'
-                            ],
-                            borderWidth: 1
-                        }
                     ]
                 }} 
                 height={400} 
@@ -51,7 +38,7 @@ const BarChart = (props) => {
 }
 
 BarChart.defaultProps = {
-    data: [10,15,5]
+    data: [10,15,5,30]
 }
 
 export default BarChart
