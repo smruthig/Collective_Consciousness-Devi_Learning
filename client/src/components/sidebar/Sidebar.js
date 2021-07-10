@@ -1,6 +1,7 @@
 import React from 'react'
 import "./Sidebar.css";
 import logo from "../../assets/logo.jpg";
+//import 'bootstrap/dist/css/bootstrap.css';
 
 const Sidebar = ({ sidebarOpen, closeSidebar }) => {
   return (
@@ -8,7 +9,8 @@ const Sidebar = ({ sidebarOpen, closeSidebar }) => {
       <div className="sidebar__title">
         <div className="sidebar__img">
           <img src={logo} alt="logo" />
-          <h1>Devi</h1>
+          <h1>        Devi
+          </h1>
         </div>
         <i
           onClick={() => closeSidebar()}
@@ -22,6 +24,7 @@ const Sidebar = ({ sidebarOpen, closeSidebar }) => {
         <div className="sidebar__link active_menu_link">
           <i className="fa fa-home"></i>
           <h1>Dashboard</h1>
+         
         </div>
         
         <div className="sidebar__link">

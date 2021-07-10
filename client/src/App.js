@@ -1,7 +1,7 @@
 import { useState } from "react";
 import "./App.css";
 import Main from "./components/main/Main";
-import AdminNav from "./components/AdmNavbars/AdminNav";
+import Navbar from "./components/navbar/Navbar";
 import Sidebar from "./components/sidebar/Sidebar";
 
 const App = () => {
@@ -14,9 +14,8 @@ const App = () => {
   };
   return (
     <div className="container">
-      <AdminNav sidebarOpen={sidebarOpen} openSidebar={openSidebar} />
-      <Main/>
-     
+      <Navbar sidebarOpen={sidebarOpen} openSidebar={openSidebar} />
+      <Main />
       <Sidebar sidebarOpen={sidebarOpen} closeSidebar={closeSidebar} />
     </div>
   );

@@ -27,7 +27,13 @@
   }
   
   .sidebar__title > div > h1 {
-    font-size: 18px;
+    font-size: 40px;
+    padding:20px;
+    display: inline;
+  }
+  .sidebar__title > div > h1>p {
+    font-size: 10px;
+    padding:5px;
     display: inline;
   }
   
