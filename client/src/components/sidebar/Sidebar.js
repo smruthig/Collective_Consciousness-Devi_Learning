@@ -1,6 +1,6 @@
 import React from 'react'
 import "./Sidebar.css";
-import logo from "../../assets/logo.jpg";
+import logo from "../../assets/logo.svg";
 import {
   Link
 } from "react-router-dom";
@@ -41,25 +41,25 @@ const Sidebar = ({ sidebarOpen, closeSidebar }) => {
         <h2></h2>
         <div className="sidebar__link">
           <i className="fa fa-money"></i>
-          <Link to="#">GAME1</Link>
+          <Link to="#">Reproductive Puzzle</Link>
         </div>
 
         <h2></h2>
         <div className="sidebar__link">
           <i className="fa fa-money"></i>
-          <Link to="#">GAME2</Link>
+          <Link to="#">Stairs And Slides</Link>
         </div>
 
         <h2></h2>
         <div className="sidebar__link">
           <i className="fa fa-money"></i>
-          <Link to="#">GAME3</Link>
+          <Link to="#">Hygiene Run</Link>
         </div>
 
         <h2></h2>
         <div className="sidebar__link">
           <i className="fa fa-money"></i>
-          <Link to="#">GAME4</Link>
+          <Link to="#">Quiz</Link>
         </div>
         
       </div>

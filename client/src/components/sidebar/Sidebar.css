@@ -57,8 +57,8 @@
 }
 
 .active_menu_link {
-  background: white;
-  color: rgb(206, 108, 97);
+  background: rgb(206, 108, 97);
+  color: white;
 }
 
 .active_menu_link Link {
@@ -68,7 +68,7 @@
 .sidebar__link > a {
   
   text-decoration: none;
-  color: rgb(206, 108, 97);
+  color: white;
   font-weight: 700;
 }
 

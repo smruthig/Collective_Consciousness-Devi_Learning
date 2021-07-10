@@ -18,12 +18,7 @@ const Navbar = ({ sidebarOpen, openSidebar }) => {
         </Link>
       </div>
       <div className="navbar__right">
-        <Link to="#">
-          <i className="fa fa-search" aria-hidden="true"></i>
-        </Link>
-        <Link to="#">
-          <i className="fa fa-clock-o" aria-hidden="true"></i>
-        </Link>
+        
         <Link to="#!">
           <img width="30" src={avatar} alt="avatar" />
         </Link>
