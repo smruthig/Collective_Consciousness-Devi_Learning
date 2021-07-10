@@ -1,6 +1,9 @@
 import React from 'react'
 import "./Navbar.css";
 import avatar from "../../assets/avatar.svg";
+import {
+  Link
+} from "react-router-dom";
 
 const Navbar = ({ sidebarOpen, openSidebar }) => {
   return (
@@ -10,20 +13,20 @@ const Navbar = ({ sidebarOpen, openSidebar }) => {
       </div>
       <div className="navbar__left">
         
-        <a className="active_link" href="#">
+        <Link className="active_link" to="#">
           Admin
-        </a>
+        </Link>
       </div>
       <div className="navbar__right">
-        <a href="#">
+        <Link to="#">
           <i className="fa fa-search" aria-hidden="true"></i>
-        </a>
-        <a href="#">
+        </Link>
+        <Link to="#">
           <i className="fa fa-clock-o" aria-hidden="true"></i>
-        </a>
-        <a href="#!">
+        </Link>
+        <Link to="#!">
           <img width="30" src={avatar} alt="avatar" />
-        </a>
+        </Link>
       </div>
     </nav>
   );
