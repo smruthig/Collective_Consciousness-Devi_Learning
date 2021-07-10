@@ -6,3 +6,4 @@ team*.zip
 *.key
 *.ovpn
 node_modules/
+config/keys.js
