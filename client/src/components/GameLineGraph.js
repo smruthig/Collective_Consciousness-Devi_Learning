@@ -9,13 +9,13 @@ const LineGraph = (props) => {
                     labels: ['Session-1', 'Session-2', 'Session-3'],
                     datasets: [
                         {
-                            label: 'Student points today',
+                            label: 'Average Points ',
                             data: props.data,
                             backgroundColor: [
-                                'rgba(255, 99, 132, 0.2)'
+                                'green'
                             ],
                             borderColor: [
-                                'rgba(255, 99, 132, 1)'
+                                'greeen'
                             ],
                             borderWidth: 1
                         }
@@ -25,6 +25,12 @@ const LineGraph = (props) => {
                 width={600}
                 options={{
                     maintainAspectRatio: false,
+                    indexAxis: 'x',
+                    scales: {
+                    y: {
+                     beginAtZero: true
+                            }
+                        }
                 }}
             /> 
         </div>
