@@ -21,59 +21,36 @@ const Sidebar = ({ sidebarOpen, closeSidebar }) => {
       <div className="sidebar__menu">
         <div className="sidebar__link active_menu_link">
           <i className="fa fa-home"></i>
-          <a href="#">Dashboard</a>
+          <h1>Dashboard</h1>
         </div>
-        <h2>Student 1</h2>
+        
         <div className="sidebar__link">
           <i className="fa fa-user-secret" aria-hidden="true"></i>
-          <a href="#">Student 1</a>
+          <a href="#">Home</a>
         </div>
         <div className="sidebar__link">
           <i className="fa fa-building-o"></i>
-          <a href="#">Student 1</a>
+          <a href="#">Student</a>
         </div>
         <div className="sidebar__link">
           <i className="fa fa-wrench"></i>
-          <a href="#">Student 1</a>
+          <a href="#">Game 1</a>
         </div>
         <div className="sidebar__link">
           <i className="fa fa-archive"></i>
-          <a href="#">Student 1</a>
+          <a href="#">Game 2</a>
         </div>
         <div className="sidebar__link">
           <i className="fa fa-handshake-o"></i>
-          <a href="#">Student 1</a>
+          <a href="#">Game 3</a>
         </div>
-        <h2>Student 2</h2>
+        
         <div className="sidebar__link">
           <i className="fa fa-question"></i>
-          <a href="#">Student 2</a>
+          <a href="#">Game 4</a>
         </div>
-        <div className="sidebar__link">
-          <i className="fa fa-sign-out"></i>
-          <a href="#">Student 2</a>
-        </div>
-        <div className="sidebar__link">
-          <i className="fa fa-calendar-check-o"></i>
-          <a href="#">Student 2</a>
-        </div>
-        <div className="sidebar__link">
-          <i className="fa fa-files-o"></i>
-          <a href="#">Student 2</a>
-        </div>
-        <h2>Student 3</h2>
-        <div className="sidebar__link">
-          <i className="fa fa-money"></i>
-          <a href="#">Student 3</a>
-        </div>
-        <div className="sidebar__link">
-          <i className="fa fa-briefcase"></i>
-          <a href="#">Student 3</a>
-        </div>
-        <div className="sidebar__logout">
-          <i className="fa fa-power-off"></i>
-          <a href="#">Student 3</a>
-        </div>
+        
+       
       </div>
     </div>
   );
