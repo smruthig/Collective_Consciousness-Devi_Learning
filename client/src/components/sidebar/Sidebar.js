@@ -1,6 +1,9 @@
 import React from 'react'
 import "./Sidebar.css";
 import logo from "../../assets/logo.jpg";
+import {
+  Link
+} from "react-router-dom";
 
 const Sidebar = ({ sidebarOpen, closeSidebar }) => {
   return (
@@ -8,7 +11,7 @@ const Sidebar = ({ sidebarOpen, closeSidebar }) => {
       <div className="sidebar__title">
         <div className="sidebar__img">
           <img src={logo} alt="logo" />
-          <h1>Devi</h1>
+          <h1>DEVI</h1>
         </div>
         <i
           onClick={() => closeSidebar()}
@@ -21,36 +24,44 @@ const Sidebar = ({ sidebarOpen, closeSidebar }) => {
       <div className="sidebar__menu">
         <div className="sidebar__link active_menu_link">
           <i className="fa fa-home"></i>
-          <h1>Dashboard</h1>
+          <Link to="#">Dashboard</Link>
         </div>
-        
+        <h2></h2>
         <div className="sidebar__link">
           <i className="fa fa-user-secret" aria-hidden="true"></i>
-          <a href="#">Home</a>
-        </div>
-        <div className="sidebar__link">
-          <i className="fa fa-building-o"></i>
-          <a href="#">Student</a>
-        </div>
-        <div className="sidebar__link">
-          <i className="fa fa-wrench"></i>
-          <a href="#">Game 1</a>
-        </div>
-        <div className="sidebar__link">
-          <i className="fa fa-archive"></i>
-          <a href="#">Game 2</a>
-        </div>
-        <div className="sidebar__link">
-          <i className="fa fa-handshake-o"></i>
-          <a href="#">Game 3</a>
+          <Link to="#">HOME</Link>
         </div>
         
+        <h2></h2>
         <div className="sidebar__link">
           <i className="fa fa-question"></i>
-          <a href="#">Game 4</a>
+          <Link to="#">STUDENT</Link>
         </div>
         
-       
+        <h2></h2>
+        <div className="sidebar__link">
+          <i className="fa fa-money"></i>
+          <Link to="#">GAME1</Link>
+        </div>
+
+        <h2></h2>
+        <div className="sidebar__link">
+          <i className="fa fa-money"></i>
+          <Link to="#">GAME2</Link>
+        </div>
+
+        <h2></h2>
+        <div className="sidebar__link">
+          <i className="fa fa-money"></i>
+          <Link to="#">GAME3</Link>
+        </div>
+
+        <h2></h2>
+        <div className="sidebar__link">
+          <i className="fa fa-money"></i>
+          <Link to="#">GAME4</Link>
+        </div>
+        
       </div>
     </div>
   );

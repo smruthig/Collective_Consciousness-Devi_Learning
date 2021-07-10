@@ -1,5 +1,5 @@
 main {
-    background: #f3f4f6;
+    background: rgb(255 240 230);
     grid-area: main;
     overflow-y: auto;
   }

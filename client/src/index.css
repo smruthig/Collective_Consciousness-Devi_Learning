@@ -17,7 +17,7 @@
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: rgb(255 240 230);
+  background: #a5aaad;
 }
 
 * {
@@ -26,7 +26,6 @@
 }
 
 body {
-  background-color: rgb(255 240 230);
   box-sizing: border-box;
   font-family: "Lato", sans-serif;
 }
