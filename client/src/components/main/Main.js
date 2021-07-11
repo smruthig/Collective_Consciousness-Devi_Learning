@@ -1,6 +1,10 @@
 import React from 'react'
 
 import "./Main.css";
+import Student from '../Student'
+import Student_new from '../Student_new'
+import BarChart from '../BarChart'
+import LineGraph from '../LineGraph'
 
 
 //import Chart from "../charts/Chart";
@@ -49,7 +53,7 @@ const Main = () => {
             ></i>
             <div className="card_inner">
               <p className="text-primary-p"></p>
-              <span className="font-bold text-title"></span>
+              <span className="font-bold text-title">c</span>
             </div>
           </div>
 
@@ -60,7 +64,7 @@ const Main = () => {
             ></i>
             <div className="card_inner">
               <p className="text-primary-p"></p>
-              <span className="font-bold text-title"></span>
+              <span className="font-bold text-title">d</span>
             </div>
           </div>
         </div>
@@ -71,19 +75,22 @@ const Main = () => {
           <div className="charts__left">
             <div className="charts__left__title">
               <div>
-                <h1>Chart1</h1>
-                <p></p>
+                {/* <h1>Chart1</h1>
+                <p></p> */}
+                
               </div>
               <i className="fa fa-usd" aria-hidden="true"></i>
             </div>
             
           </div>
-
+        </div>
+        <div className="charts">
           <div className="charts__right">
             <div className="charts__right__title">
               <div>
-                <h1>Chart2</h1>
-                <p></p>
+                {/* <h1>Chart2</h1>
+                <p></p> */}
+                
               </div>
               <i className="fa fa-usd" aria-hidden="true"></i>
             </div>

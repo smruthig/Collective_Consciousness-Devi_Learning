@@ -2,7 +2,7 @@ import React from 'react'
 import "./Sidebar.css";
 import logo from "../../assets/logo.svg";
 import {
-  Link
+  Link, Route
 } from "react-router-dom";
 
 const Sidebar = ({ sidebarOpen, closeSidebar }) => {
@@ -35,7 +35,7 @@ const Sidebar = ({ sidebarOpen, closeSidebar }) => {
         <h2></h2>
         <div className="sidebar__link">
           <i className="fa fa-question"></i>
-          <Link to="#">STUDENT</Link>
+          <Link to="/student">STUDENT</Link>
         </div>
         
         <h2></h2>
