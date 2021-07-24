@@ -1,4 +1,4 @@
-# Collective consciousness - Devi initiative
+# Collective consciousness - Devi initiative 
 
 This project was done as a part of the 'Code for Good - 2021' hackathon conducted by JP Morgan Chase and Co.\
 It is a website to visualize data to gain insights about the students' progress in their respective courses, using charts and graphs.
