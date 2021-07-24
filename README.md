@@ -5,7 +5,7 @@ It is a website to visualize data to gain insights about the students' progress 
 
 ## Available Scripts
 
-In the project directory, you can run:
+In the project directory, in client folder, you can run:
 
 ### `npm start`
 
